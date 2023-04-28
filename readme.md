@@ -21,3 +21,8 @@ The **_Promotion Manager_** is responsible for promoting the team's repository b
 ## Code
 
 ## Contributors 
+
+{% for stu in site.stu %}
+ @{{stu.user}} ({{stu.name}})
+{{stu.content}} {% endfor %}
+Last updated: {{ site.time }}
