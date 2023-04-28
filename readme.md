@@ -23,6 +23,8 @@ The **_Promotion Manager_** is responsible for promoting the team's repository b
 ## Contributors 
 
 {% for stu in site.stu %}
--{{ stu.image }}@{{stu.user}} ({{stu.name}})
---{{ stu.content }} {% endfor %}
+  * <img src="{{ stu.image }}" style="width: 40px; height: 40px"> [@{{stu.user}}](http://github.com/{{stu.user}}) ({{stu.name}}) 
+    * {{ stu.content }}
+{% endfor %}
+
 {{ site.time }}
