@@ -20,4 +20,6 @@ The **_Promotion Manager_** is responsible for promoting the team's repository b
 
 ## Code
 
+{% include_relative ./code.c %}
+
 ## Contributors 
