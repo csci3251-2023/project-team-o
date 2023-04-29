@@ -20,6 +20,12 @@ The **_Promotion Manager_** is responsible for promoting the team's repository b
 
 ## Code
 
+```c
+{% include_relative code.c %}
+```
+
+![workflow](https://github.com/csci3251-2023/repository/actions/workflows/.github/workflows/badge.svg)
+
 ## Contributors 
 
 {% for stu in site.stu %}
